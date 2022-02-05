@@ -4,35 +4,35 @@ const tableData = data;
 // Reference the HTML table using d3
 var tbody = d3.select("tbody");
 
-// Simple JavaScript console.log statement
-function printHello() {
-    console.log("Hello there!");
-  }
+// // Simple JavaScript console.log statement
+// function printHello() {
+//     console.log("Hello there!");
+//   }
 
- // Takes two numbers and adds them
-function addition(a, b) {
-    return a + b;
-  } 
+//  // Takes two numbers and adds them
+// function addition(a, b) {
+//     return a + b;
+//   } 
 
-//11.4.1 Use a JavaScript for Loop
+// //11.4.1 Use a JavaScript for Loop
 
-let friends = ["Sarah", "Greg", "Cindy", "Jeff"];
+// let friends = ["Sarah", "Greg", "Cindy", "Jeff"];
 
-function listLoop(userList) {
-    for (var i = 0; i < userList.length; i++) {
-      console.log(userList[i]);
-    }
- }
+// function listLoop(userList) {
+//     for (var i = 0; i < userList.length; i++) {
+//       console.log(userList[i]);
+//     }
+//  }
 
-// 11.4.2 Practice Using for Loops in JavaScript 
+// // 11.4.2 Practice Using for Loops in JavaScript 
 
-let vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
+// let vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
 
-var vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
+// var vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
 
-for (var i = 0; i < vegetables.length; i++) {
-    console.log("I love " + vegetables[i]);
-}
+// for (var i = 0; i < vegetables.length; i++) {
+//     console.log("I love " + vegetables[i]);
+// }
 
 //11.5.1 Introduction to Dynamic Tables
 
@@ -58,11 +58,11 @@ function buildTable(data) {
 
 //11.5.3 Add Filters
 
-//handleClick
-function handleClick() {
-    let date = d3.select("#datetime").property("value");
+// //handleClick
+// function handleClick() {
+//     let date = d3.select("#datetime").property("value");
 
-    let filteredData = tableData;
+//     let filteredData = tableData;
 
 //11.5.4 Use the “If” Statement final code
 

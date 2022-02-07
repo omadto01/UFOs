@@ -53,17 +53,17 @@ function updateFilters() {
   function filterTable() {
   
     // 8. Set the filtered data to the tableData.
-    let filteredTable = tableData;
+    let filteredData = tableData;
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    Object.entries(filters).forEach(function([key, value])){
+    Object.entries(filters).forEach(function([key,value]){
 
   
 
     // 10. Finally, rebuild the table using the filtered data
-    filteredData =filterData.filter(filter(row) => row[key] === value)
-    }
+    filteredData =filteredData.filter((row) => row[key] === value);
+    })
   }
   
   // 2. Attach an event to listen for changes to each filter

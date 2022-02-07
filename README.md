@@ -11,7 +11,8 @@ By having a total of five search criteria, the users will have a more option to 
 
 
 
-![image-20220206202201712](C:\Users\omaro\AppData\Roaming\Typora\typora-user-images\image-20220206202201712.png)
+​                                  ![image-20220206202201712](https://user-images.githubusercontent.com/94090097/152712348-b269dcd0-38de-47e9-9ca8-804923069627.png)	
+
 
 **Summary:** In summary the webpage with added four search criteria/filter such as Date, City, State, Country and Shape has given the user/visitor's a website to narrow down the search. However, the new design did not add the filter button and having multiple search filter tab can be confusing to user.
 
